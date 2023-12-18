@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The KaleidoscopeOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
