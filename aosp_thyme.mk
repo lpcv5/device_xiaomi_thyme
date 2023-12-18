@@ -13,12 +13,8 @@ $(call inherit-product, device/xiaomi/thyme/device.mk)
 
 # Inherit common PixelExperience configurations
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
-
-CUSTOM_BUILD_FLAVOR := missi_phoneext4_cn-user
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_thyme
